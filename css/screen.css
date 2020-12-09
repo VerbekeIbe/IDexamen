@@ -506,6 +506,7 @@ input:disabled {
     border: solid var(--global-color-neutral-xxxx-light);
     border-radius: .3rem;
     width: 100%;
+    padding: .5rem;
     
 }
 
