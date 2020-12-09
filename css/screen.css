@@ -59,6 +59,9 @@
 
     /* borders */
 
+    --global-border-width: 2px;
+    --global-border-radius: 5px;
+
     /* transitions */
 }
 
@@ -447,7 +450,19 @@ input:disabled {
 
 
 .c-button {
-    
+    display: block;
+
+    font-family: inherit;
+    font-weight: 500;
+
+    background-color: var(--global-color-alpha);
+    color: var(--global-color-neutral-white);
+
+    border: var(--global-border-width) solid transparent;
+    border-radius: var(--global-border-width);
+
+    padding: 1rem 4rem;
+
 }
 
 
