@@ -65,6 +65,20 @@
     /* transitions */
 }
 
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --global-color-neutral-background-light: #17161A ;
+
+        --global-color-neutral-white: #232226;
+        --global-color-neutral-dark: #fff;
+        --global-color-neutral-xxxx-light: #787480;
+        
+
+
+    }
+}
+
 /*------------------------------------*\
 #GENERIC
 \*------------------------------------*/
