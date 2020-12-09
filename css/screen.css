@@ -54,7 +54,7 @@
 
     /* shadows */
 
-    --global-input-shadow: 0 0 0 3px rgba(78,0,234,30);
+    --global-input-shadow: 0 0 0 3px rgba(78,0,234,.3);
     --global-box-shadow: 0 0 1px 4px rgba(23, 25, 26, 0.1);
 
     /* borders */
@@ -465,7 +465,19 @@ input:disabled {
 
 }
 
+.c-button:focus{
+outline: none;
+box-shadow: var(--global-input-shadow);
+}
 
+.c-button:active{
+background-color: var(--global-color-alpha-light);
+
+}
+
+.c-button:hover {
+    background-color: var(--global-color-alpha-light);
+}
 
 
 
@@ -562,6 +574,8 @@ input:disabled {
 .u-align-center {
     margin: 0 auto;
 }
+
+
 
 /*
     Utilities: text
