@@ -572,7 +572,6 @@ background-color: var(--global-color-alpha-light);
 }
 
 .c-loading {
- 
     position: relative;
     align-items: center;
     width: auto;
