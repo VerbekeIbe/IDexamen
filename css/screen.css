@@ -571,6 +571,18 @@ background-color: var(--global-color-alpha-light);
     border-radius: var(--global-border-radius);
 }
 
+.c-loading {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+
+    max-width:  32em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /*------------------------------------*\
