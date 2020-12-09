@@ -453,7 +453,7 @@ input:disabled {
 
 .c-custom-option__input:checked + .c-custom-option__label .c-custom-option__fake-input--chip{
     background-color: var(--global-color-alpha);
-    color: var(--global-color-neutral-white);
+    color: var(--global-color-neutral-xxx-light);
 }
 
 .c-custom-option__input:hover + .c-custom-option__label .c-custom-option__fake-input--chip{
@@ -525,7 +525,7 @@ input:disabled {
     font-weight: 500;
 
     background-color: var(--global-color-alpha);
-    color: var(--global-color-neutral-white);
+    color: var(--global-color-neutral-xxx-light);
 
     border: var(--global-border-width) solid transparent;
     border-radius: var(--global-border-width);
