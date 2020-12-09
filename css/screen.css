@@ -435,9 +435,19 @@ input:disabled {
 
 }
 
-.c-custom-option__input:checked + .c-custom-option__label .c-custom-option__fake-input--chip .c-custom-option__symbol {
+.c-custom-option__input:checked + .c-custom-option__label .c-custom-option__fake-input--chip{
     background-color: var(--global-color-alpha);
+    color: var(--global-color-neutral-white);
 }
+
+.c-custom-option__input:hover + .c-custom-option__label .c-custom-option__fake-input--chip{
+    background-color: var(--global-color-neutral-xxx-light);
+}
+.c-custom-option__input:focus + .c-custom-option__label .c-custom-option__fake-input--chip{
+   border: solid var(--global-color-alpha) .1rem;
+   box-shadow: var(--global-box-shadow);
+}
+
 
 .c-custom-option__symbol {
     display: flex;
@@ -468,8 +478,6 @@ input:disabled {
     width: 100%;
     height: 100%;
 }
-
-
 
 
 
