@@ -232,6 +232,7 @@ a:focus {
 label,
 input {
     display: inline-block;
+    font-size: 0.875rem;
 }
 
 select {
@@ -412,17 +413,30 @@ input:disabled {
     margin-right: 0.5rem;
 }
 
+.o-chip_list {
+    max-width:  32rem;
+    position: relative;
+    
+}
 
 .c-custom-option__fake-input--chip{
-    display: flex;
+    position: relative;
+    display: inline-block;
     align-items: center;
+    width: auto;
     justify-content: center;
     background-color: var(--global-color-neutral-xxxx-light);
+    font-family:inherit;
     
     border: solid var(--global-color-neutral-xxxx-light) transparent;
     border-radius: 32px;
+    padding:  0.5rem 1rem;
+    margin: 0.5rem;
 
+}
 
+.c-custom-option__input:checked + .c-custom-option__label .c-custom-option__fake-input--chip .c-custom-option__symbol {
+    background-color: var(--global-color-alpha);
 }
 
 .c-custom-option__symbol {
@@ -454,6 +468,9 @@ input:disabled {
     width: 100%;
     height: 100%;
 }
+
+
+
 
 
 .c-input {
