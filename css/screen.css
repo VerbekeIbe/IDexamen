@@ -66,7 +66,7 @@
 }
 
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --global-color-neutral-background-light: #17161A ;
 
@@ -77,7 +77,7 @@
 
 
     }
-} */
+}
 
 /*------------------------------------*\
 #GENERIC
