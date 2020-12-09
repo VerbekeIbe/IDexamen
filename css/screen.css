@@ -556,7 +556,7 @@ background-color: var(--global-color-alpha-light);
     width: 21.75rem;
     background-color: var(--global-color-neutral-xx-light);
     height: 8px;
-    border: solid var(--global-border-width) transparent;
+    border: solid 0px transparent;
     border-radius: var(--global-border-radius);
 
 }
@@ -572,8 +572,8 @@ background-color: var(--global-color-alpha-light);
 }
 
 .c-loading {
+ 
     position: relative;
-    display: inline-block;
     align-items: center;
     width: auto;
     justify-content: center;
