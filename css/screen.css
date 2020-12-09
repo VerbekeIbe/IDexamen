@@ -432,7 +432,8 @@ input:disabled {
 
 .c-custom-option__input:active + .c-custom-option__label .c-custom-option__fake-input,
 .c-custom-option__input:focus + .c-custom-option__label .c-custom-option__fake-input {
-    border: solid var(--global-color-alpha) .1rem;
+    border: solid var(--global-color-alpha);
+    border-width:var(--global-border-width);
     box-shadow: var(--global-input-shadow);
 }
 
@@ -456,6 +457,13 @@ input:disabled {
     
 }
 
+
+.c-input:focus,
+.c-input:active {
+    border-color: var(--global-color-alpha);
+    border-width:var(--global-border-width);
+    box-shadow: var(--global-input-shadow);
+}
 
 
 .c-button {
