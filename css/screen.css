@@ -414,8 +414,10 @@ input:disabled {
 }
 
 .o-chip_list {
-    max-width:  32rem;
+    max-width:  32em;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -445,7 +447,7 @@ input:disabled {
 }
 .c-custom-option__input:focus + .c-custom-option__label .c-custom-option__fake-input--chip{
    border: solid var(--global-color-alpha) .1rem;
-   box-shadow: var(--global-box-shadow);
+   box-shadow: var(--global-input-shadow);
 }
 
 
